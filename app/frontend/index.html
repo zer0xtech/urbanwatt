@@ -67,6 +67,8 @@
             html += '</tbody></table>';
             conteneur.innerHTML = html;
         }
+
+        // Cette fonction s'exécute quand tu cliques sur "Voir les bornes"
         async function chargerBornes(idStation) {
             const zone = document.getElementById('zone-bornes');
             const liste = document.getElementById('liste-bornes');
@@ -112,6 +114,7 @@
             liste.innerHTML = html;
         }
 
+        // Lancement automatique au chargement
         chargerStations();
     </script>
 

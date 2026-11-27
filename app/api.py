@@ -16,9 +16,13 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+INDEX_PATH = r"C:\Users\Zerox\Documents\Projects\urbanwatt\urbanwatt\app\frontend\index.html"
+ENV_PATH = r"C:\Users\Zerox\Documents\Projects\urbanwatt\urbanwatt\infra\.env"
+load_dotenv(dotenv_path=ENV_PATH)
 
 DATABASE_URL = os.getenv("DATABASE_URL")
-INDEX_PATH = r'C:\Users\Zerox\Documents\Projects\urbanwatt\urbanwatt\app\frontend\index.html'
+if not DATABASE_URL:
+    raise RuntimeError(f"DATABASE_URL introuvable. Vérifie le fichier : {ENV_PATH}")
 
 @app.get("/")
 def lire_index():
