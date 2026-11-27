@@ -4,8 +4,11 @@ from fastapi.responses import FileResponse
 import psycopg
 from psycopg.rows import dict_row
 from fastapi.middleware.cors import CORSMiddleware
+import os
+from dotenv import load_dotenv
 
 app = FastAPI()
+load_dotenv()
 
 app.add_middleware(
     CORSMiddleware,
@@ -14,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-DATABASE_URL = "postgresql://postgres:postgres@localhost:5432/urbanwatt"
+DATABASE_URL = os.getenv("DATABASE_URL")
 INDEX_PATH = r'C:\Users\Zerox\Documents\Projects\urbanwatt\urbanwatt\app\frontend\index.html'
 
 @app.get("/")
