@@ -5,6 +5,7 @@
 ## Arborescence du dépôt
 * **`app/`** : Code source applicatif (API et interface web minimaliste).
 * **`docs/`** : Modélisation (MCD/MLD), règles de gestion et documentation des tests.
+* **`data/`** : Fichiers CSV.
 * **`infra/`** : Configuration (ex: Docker) et variables d'environnement (`.env.example`).
 * **`sauvegardes/`** : Procédures et preuves de sauvegarde/restauration de la base.
 * **`sql/`** : Scripts de création (`01_schema.sql`), de vérification (`02_verifications.sql`) et requêtes d'analyse (`03_requetes.sql`).
