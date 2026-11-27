@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>UrbanWatt - Stations et Bornes</title>
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #333; }
+        table { width: 100%; border-collapse: collapse; margin-top: 15px; margin-bottom: 30px; }
+        th, td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        th { background-color: #f4f4f4; }
+        button { padding: 6px 12px; cursor: pointer; background: #0066cc; color: white; border: none; border-radius: 4px; }
+        button:hover { background: #0052a3; }
+    </style>
+</head>
+<body>
+
+    <h1>Liste des stations UrbanWatt</h1>
+    <div id="liste-stations">Chargement des stations...</div>
+
+    <div id="zone-bornes" style="display: none;">
+        <h2 id="titre-bornes">Bornes</h2>
+        <div id="liste-bornes"></div>
+    </div>
+
+    <script>
+        // Cette fonction s'exécute toute seule au chargement de la page
+        async function chargerStations() {
+            const reponse = await fetch('/api/stations');
+            const stations = await reponse.json();
+            const conteneur = document.getElementById('liste-stations');
+
+            if (stations.length === 0) {
+                conteneur.innerHTML = '<p>Aucune station trouvée dans la base de données.</p>';
+                return;
+            }
+
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Code</th>
+                            <th>Nom</th>
+                            <th>Ville</th>
+                            <th>Adresse</th>
+                            <th>Date d'ouverture</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            stations.forEach(s => {
+                html += `
+                    <tr>
+                        <td>${s.id_station}</td>
+                        <td>${s.code_station}</td>
+                        <td>${s.nom_station}</td>
+                        <td>${s.ville}</td>
+                        <td>${s.adresse}</td>
+                        <td>${s.date_ouverture}</td>
+                        <td><button onclick="chargerBornes(${s.id_station})">Voir les bornes</button></td>
+                    </tr>
+                `;
+            });
+
+            html += '</tbody></table>';
+            conteneur.innerHTML = html;
+        }
+
+        // Cette fonction s'exécute quand tu cliques sur "Voir les bornes"
+        async function chargerBornes(idStation) {
+            const zone = document.getElementById('zone-bornes');
+            const liste = document.getElementById('liste-bornes');
+            document.getElementById('titre-bornes').textContent = `Bornes de la station #${idStation}`;
+            zone.style.display = 'block';
+            liste.innerHTML = 'Chargement...';
+
+            const reponse = await fetch(`/api/stations/${idStation}/bornes`);
+            const bornes = await reponse.json();
+
+            if (bornes.length === 0) {
+                liste.innerHTML = '<p>Aucune borne pour cette station.</p>';
+                return;
+            }
+
+            let html = `
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Code</th>
+                            <th>Puissance</th>
+                            <th>Connecteur</th>
+                            <th>État</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+            `;
+
+            bornes.forEach(b => {
+                html += `
+                    <tr>
+                        <td>${b.id_borne}</td>
+                        <td>${b.code_borne}</td>
+                        <td>${b.puissance_kw} kW</td>
+                        <td>${b.connecteur}</td>
+                        <td>${b.etat}</td>
+                    </tr>
+                `;
+            });
+
+            html += '</tbody></table>';
+            liste.innerHTML = html;
+        }
+
+        // Lancement automatique au chargement
+        chargerStations();
+    </script>
+
+</body>
+</html>
