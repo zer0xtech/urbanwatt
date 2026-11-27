@@ -1,0 +1,121 @@
+id_station;code_station;nom_station;ville;adresse;date_ouverture
+1;ST-LIL;Lille République;Lille;12 place de la République;2024-02-15
+2;ST-TOU;Toulouse Saint-Cyprien;Toulouse;18 allée Charles de Fitte;2025-03-15
+3;ST-LYO;Lyon Part-Dieu;Lyon;6 rue de la Villette;2023-04-15
+4;ST-BOR;Bordeaux Bastide;Bordeaux;25 avenue Thiers;2024-05-15
+5;ST-NAN;Nantes Centre;Nantes;7 cours des 50 Otages;2025-06-15
+6;ST-MON;Montpellier Antigone;Montpellier;14 place du Millénaire;2023-07-15
+7;ST-STR-001;Strasbourg Nord 1;Strasbourg;98 impasse de la Recharge (adresse fictive);2024-05-26
+8;ST-ROU-001;Rouen Nord 1;Rouen;112 rue de la Recharge (adresse fictive);2024-12-26
+9;ST-GRE-001;Grenoble Parc 1;Grenoble;54 allée de la Recharge (adresse fictive);2024-04-19
+10;ST-ROU-002;Rouen Ouest 2;Rouen;7 allée de la Recharge (adresse fictive);2025-11-30
+11;ST-REI-001;Reims Parc 1;Reims;64 rue de la Recharge (adresse fictive);2023-09-02
+12;ST-ROU-003;Rouen Centre 3;Rouen;28 impasse de la Recharge (adresse fictive);2024-11-01
+13;ST-CAE-001;Caen Ouest 1;Caen;76 allée de la Recharge (adresse fictive);2023-04-13
+14;ST-ANG-001;Angers Marché 1;Angers;72 allée de la Recharge (adresse fictive);2023-12-17
+15;ST-PER-001;Perpignan Nord 1;Perpignan;144 rue de la Recharge (adresse fictive);2023-06-09
+16;ST-PER-002;Perpignan Ouest 2;Perpignan;68 impasse de la Recharge (adresse fictive);2024-04-15
+17;ST-PER-003;Perpignan Marché 3;Perpignan;34 avenue de la Recharge (adresse fictive);2023-01-08
+18;ST-NCY-001;Nancy Parc 1;Nancy;62 impasse de la Recharge (adresse fictive);2025-08-25
+19;ST-LYO-002;Lyon Innovation 2;Lyon;11 allée de la Recharge (adresse fictive);2025-05-29
+20;ST-MAR-001;Marseille Sud 1;Marseille;28 avenue de la Recharge (adresse fictive);2026-02-21
+21;ST-MET-001;Metz Campus 1;Metz;121 allée de la Recharge (adresse fictive);2023-09-23
+22;ST-TOU-002;Toulouse Marché 2;Toulouse;45 allée de la Recharge (adresse fictive);2025-12-19
+23;ST-TOU-003;Toulouse Gare 3;Toulouse;140 rue de la Recharge (adresse fictive);2023-10-25
+24;ST-LIL-002;Lille Est 2;Lille;80 avenue de la Recharge (adresse fictive);2025-07-13
+25;ST-PAR-001;Paris Ouest 1;Paris;9 avenue de la Recharge (adresse fictive);2025-10-12
+26;ST-MON-002;Montpellier Parc 2;Montpellier;12 avenue de la Recharge (adresse fictive);2023-09-18
+27;ST-GRE-002;Grenoble Est 2;Grenoble;108 rue de la Recharge (adresse fictive);2025-06-22
+28;ST-BRE-001;Brest Est 1;Brest;137 boulevard de la Recharge (adresse fictive);2026-03-11
+29;ST-DIJ-001;Dijon Innovation 1;Dijon;21 rue de la Recharge (adresse fictive);2025-09-11
+30;ST-NIC-001;Nice Nord 1;Nice;68 rue de la Recharge (adresse fictive);2025-10-06
+31;ST-GRE-003;Grenoble Innovation 3;Grenoble;90 boulevard de la Recharge (adresse fictive);2025-12-08
+32;ST-BRE-002;Brest Centre 2;Brest;147 avenue de la Recharge (adresse fictive);2025-09-04
+33;ST-BRE-003;Brest Marché 3;Brest;42 impasse de la Recharge (adresse fictive);2023-03-21
+34;ST-AMI-001;Amiens Hôtel de Ville 1;Amiens;95 rue de la Recharge (adresse fictive);2024-02-19
+35;ST-TUR-001;Tours Marché 1;Tours;108 allée de la Recharge (adresse fictive);2025-05-20
+36;ST-ROU-004;Rouen Marché 4;Rouen;79 boulevard de la Recharge (adresse fictive);2025-01-28
+37;ST-PER-004;Perpignan Parc 4;Perpignan;82 boulevard de la Recharge (adresse fictive);2024-06-27
+38;ST-CAE-002;Caen Centre 2;Caen;88 impasse de la Recharge (adresse fictive);2025-01-01
+39;ST-NCY-002;Nancy Nord 2;Nancy;28 impasse de la Recharge (adresse fictive);2025-04-14
+40;ST-TOU-004;Toulouse Hôtel de Ville 4;Toulouse;27 allée de la Recharge (adresse fictive);2024-02-19
+41;ST-AMI-002;Amiens Rives 2;Amiens;118 allée de la Recharge (adresse fictive);2023-04-21
+42;ST-TOU-005;Toulouse Campus 5;Toulouse;141 rue de la Recharge (adresse fictive);2023-09-27
+43;ST-PER-005;Perpignan Centre 5;Perpignan;118 allée de la Recharge (adresse fictive);2024-11-21
+44;ST-MET-002;Metz Centre 2;Metz;4 allée de la Recharge (adresse fictive);2025-06-23
+45;ST-NIC-002;Nice Hôtel de Ville 2;Nice;133 rue de la Recharge (adresse fictive);2025-12-05
+46;ST-PAR-002;Paris Hôtel de Ville 2;Paris;8 rue de la Recharge (adresse fictive);2023-10-07
+47;ST-NAN-002;Nantes Est 2;Nantes;129 boulevard de la Recharge (adresse fictive);2024-05-15
+48;ST-LIL-003;Lille Nord 3;Lille;31 avenue de la Recharge (adresse fictive);2025-12-24
+49;ST-BOR-002;Bordeaux Est 2;Bordeaux;58 rue de la Recharge (adresse fictive);2024-08-04
+50;ST-DIJ-002;Dijon Marché 2;Dijon;96 impasse de la Recharge (adresse fictive);2024-04-14
+51;ST-NIC-003;Nice Ouest 3;Nice;46 allée de la Recharge (adresse fictive);2024-02-19
+52;ST-ANG-002;Angers Campus 2;Angers;137 allée de la Recharge (adresse fictive);2024-03-15
+53;ST-REI-002;Reims Hôtel de Ville 2;Reims;133 avenue de la Recharge (adresse fictive);2024-12-13
+54;ST-DIJ-003;Dijon Ouest 3;Dijon;67 avenue de la Recharge (adresse fictive);2023-04-23
+55;ST-TUR-002;Tours Innovation 2;Tours;9 rue de la Recharge (adresse fictive);2023-03-23
+56;ST-ANG-003;Angers Gare 3;Angers;91 boulevard de la Recharge (adresse fictive);2024-06-16
+57;ST-REN-001;Rennes Gare 1;Rennes;12 avenue de la Recharge (adresse fictive);2025-12-11
+58;ST-REI-003;Reims Ouest 3;Reims;51 rue de la Recharge (adresse fictive);2025-01-03
+59;ST-ROU-005;Rouen Campus 5;Rouen;36 boulevard de la Recharge (adresse fictive);2023-08-01
+60;ST-CLF-001;Clermont-Ferrand Marché 1;Clermont-Ferrand;123 rue de la Recharge (adresse fictive);2024-07-28
+61;ST-MET-003;Metz Centre 3;Metz;38 avenue de la Recharge (adresse fictive);2024-02-02
+62;ST-AMI-003;Amiens Est 3;Amiens;114 rue de la Recharge (adresse fictive);2025-04-24
+63;ST-ROU-006;Rouen Centre 6;Rouen;62 boulevard de la Recharge (adresse fictive);2023-09-14
+64;ST-NCY-003;Nancy Hôtel de Ville 3;Nancy;113 rue de la Recharge (adresse fictive);2025-08-19
+65;ST-CLF-002;Clermont-Ferrand Campus 2;Clermont-Ferrand;100 avenue de la Recharge (adresse fictive);2024-08-28
+66;ST-LIL-004;Lille Gare 4;Lille;81 rue de la Recharge (adresse fictive);2024-12-13
+67;ST-MON-003;Montpellier Gare 3;Montpellier;139 boulevard de la Recharge (adresse fictive);2025-02-01
+68;ST-LYO-003;Lyon Ouest 3;Lyon;84 avenue de la Recharge (adresse fictive);2023-06-20
+69;ST-MAR-002;Marseille Innovation 2;Marseille;116 avenue de la Recharge (adresse fictive);2023-01-20
+70;ST-NAN-003;Nantes Innovation 3;Nantes;57 rue de la Recharge (adresse fictive);2024-02-11
+71;ST-NAN-004;Nantes Innovation 4;Nantes;126 avenue de la Recharge (adresse fictive);2023-09-10
+72;ST-LYO-004;Lyon Est 4;Lyon;5 allée de la Recharge (adresse fictive);2025-09-25
+73;ST-NIC-004;Nice Gare 4;Nice;87 impasse de la Recharge (adresse fictive);2025-12-05
+74;ST-DIJ-004;Dijon Innovation 4;Dijon;9 allée de la Recharge (adresse fictive);2024-05-10
+75;ST-STR-002;Strasbourg Centre 2;Strasbourg;118 boulevard de la Recharge (adresse fictive);2024-02-17
+76;ST-NAN-005;Nantes Sud 5;Nantes;8 boulevard de la Recharge (adresse fictive);2024-04-17
+77;ST-MON-004;Montpellier Est 4;Montpellier;140 boulevard de la Recharge (adresse fictive);2024-06-24
+78;ST-ANG-004;Angers Centre 4;Angers;103 rue de la Recharge (adresse fictive);2023-12-23
+79;ST-NIC-005;Nice Ouest 5;Nice;103 impasse de la Recharge (adresse fictive);2024-06-30
+80;ST-REI-004;Reims Parc 4;Reims;85 impasse de la Recharge (adresse fictive);2023-07-27
+81;ST-REN-002;Rennes Est 2;Rennes;141 rue de la Recharge (adresse fictive);2025-07-22
+82;ST-ROU-007;Rouen Rives 7;Rouen;86 impasse de la Recharge (adresse fictive);2023-12-24
+83;ST-AMI-004;Amiens Est 4;Amiens;92 boulevard de la Recharge (adresse fictive);2025-03-27
+84;ST-PER-006;Perpignan Hôtel de Ville 6;Perpignan;152 allée de la Recharge (adresse fictive);2023-09-12
+85;ST-AMI-005;Amiens Nord 5;Amiens;63 allée de la Recharge (adresse fictive);2026-02-17
+86;ST-PER-007;Perpignan Parc 7;Perpignan;136 avenue de la Recharge (adresse fictive);2023-05-08
+87;ST-NCY-004;Nancy Sud 4;Nancy;96 rue de la Recharge (adresse fictive);2024-03-13
+88;ST-BOR-003;Bordeaux Rives 3;Bordeaux;87 impasse de la Recharge (adresse fictive);2023-03-11
+89;ST-AMI-006;Amiens Ouest 6;Amiens;138 impasse de la Recharge (adresse fictive);2023-10-14
+90;ST-BOR-004;Bordeaux Gare 4;Bordeaux;93 rue de la Recharge (adresse fictive);2024-05-19
+91;ST-MET-004;Metz Rives 4;Metz;24 boulevard de la Recharge (adresse fictive);2024-11-09
+92;ST-CLF-003;Clermont-Ferrand Innovation 3;Clermont-Ferrand;136 impasse de la Recharge (adresse fictive);2024-08-28
+93;ST-LYO-005;Lyon Marché 5;Lyon;3 allée de la Recharge (adresse fictive);2024-11-06
+94;ST-REN-003;Rennes Hôtel de Ville 3;Rennes;13 impasse de la Recharge (adresse fictive);2025-03-12
+95;ST-CLF-004;Clermont-Ferrand Nord 4;Clermont-Ferrand;125 impasse de la Recharge (adresse fictive);2023-05-13
+96;ST-LIL-005;Lille Parc 5;Lille;65 avenue de la Recharge (adresse fictive);2024-07-09
+97;ST-REN-004;Rennes Parc 4;Rennes;7 rue de la Recharge (adresse fictive);2024-09-08
+98;ST-STR-003;Strasbourg Campus 3;Strasbourg;14 boulevard de la Recharge (adresse fictive);2024-12-09
+99;ST-STR-004;Strasbourg Nord 4;Strasbourg;155 allée de la Recharge (adresse fictive);2023-03-28
+100;ST-PAR-003;Paris Hôtel de Ville 3;Paris;10 boulevard de la Recharge (adresse fictive);2024-03-12
+101;ST-REI-005;Reims Gare 5;Reims;31 avenue de la Recharge (adresse fictive);2023-08-13
+102;ST-REN-005;Rennes Gare 5;Rennes;57 rue de la Recharge (adresse fictive);2024-01-25
+103;ST-DIJ-005;Dijon Gare 5;Dijon;57 rue de la Recharge (adresse fictive);2023-05-21
+104;ST-NCY-005;Nancy Gare 5;Nancy;19 avenue de la Recharge (adresse fictive);2023-10-01
+105;ST-GRE-004;Grenoble Parc 4;Grenoble;55 impasse de la Recharge (adresse fictive);2025-04-20
+106;ST-PER-008;Perpignan Rives 8;Perpignan;153 impasse de la Recharge (adresse fictive);2024-03-09
+107;ST-GRE-005;Grenoble Gare 5;Grenoble;74 boulevard de la Recharge (adresse fictive);2025-06-27
+108;ST-BRE-004;Brest Sud 4;Brest;69 boulevard de la Recharge (adresse fictive);2023-03-19
+109;ST-ROU-008;Rouen Ouest 8;Rouen;105 avenue de la Recharge (adresse fictive);2023-02-01
+110;ST-TOU-006;Toulouse Innovation 6;Toulouse;5 allée de la Recharge (adresse fictive);2023-06-07
+111;ST-LYO-006;Lyon Gare 6;Lyon;139 allée de la Recharge (adresse fictive);2023-07-12
+112;ST-AMI-007;Amiens Rives 7;Amiens;103 allée de la Recharge (adresse fictive);2024-09-07
+113;ST-CLF-005;Clermont-Ferrand Parc 5;Clermont-Ferrand;153 rue de la Recharge (adresse fictive);2023-11-03
+114;ST-CLF-006;Clermont-Ferrand Parc 6;Clermont-Ferrand;144 boulevard de la Recharge (adresse fictive);2025-09-21
+115;ST-LYO-007;Lyon Rives 7;Lyon;64 impasse de la Recharge (adresse fictive);2023-06-01
+116;ST-MAR-003;Marseille Rives 3;Marseille;101 avenue de la Recharge (adresse fictive);2024-10-08
+117;ST-MON-005;Montpellier Centre 5;Montpellier;39 avenue de la Recharge (adresse fictive);2025-11-13
+118;ST-REN-006;Rennes Innovation 6;Rennes;103 boulevard de la Recharge (adresse fictive);2024-09-10
+119;ST-REN-007;Rennes Est 7;Rennes;82 boulevard de la Recharge (adresse fictive);2023-03-03
+120;ST-NAN-006;Nantes Marché 6;Nantes;4 boulevard de la Recharge (adresse fictive);2024-05-04
